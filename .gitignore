@@ -312,3 +312,7 @@ pyrightconfig.json
 hs_err_pid*
 
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,macos,python,jupyternotebooks,scala
+
+# DataSet
+**/.datasets/*
+!**/.datasets/.gitkeep
