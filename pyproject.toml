@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "learn-data-engineering"
+version = "0.1.0"
+description = "Learn Data Engineering"
+authors = ["hashfunc <hashfunc.io@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "learn_data_engineering" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
